@@ -245,10 +245,6 @@ public class RestAPIRequest {
 	 * @see reference
 	 *      http://rest-assured.googlecode.com/svn/tags/1.7.2/apidocs/com
 	 *      /jayway/restassured/path/json/JsonPath.html
-	 * @see reference
-	 *      http://rest-assured.googlecode.com/svn/tags/1.7.2/apidocs/com
-	 *      /jayway/restassured/path/xml/XmlPath.html
-	 * 
 	 * @return <code>Object</code> The return type is <code>Object</code>,
 	 *         because it may return <code>String</code>, <code>Integer</code>,
 	 *         <code>List<*></code>... based on query result for specified
@@ -305,10 +301,6 @@ public class RestAPIRequest {
 	 * @see reference 
 	 *      http://rest-assured.googlecode.com/svn/tags/1.7.2/apidocs/com
 	 *      /jayway/restassured/path/json/JsonPath.html
-	 * @see reference 
-	 *      http://rest-assured.googlecode.com/svn/tags/1.7.2/apidocs/com
-	 *      /jayway/restassured/path/xml/XmlPath.html
-	 * 
 	 * @return <code>String</code>
 	 * 
 	 */
