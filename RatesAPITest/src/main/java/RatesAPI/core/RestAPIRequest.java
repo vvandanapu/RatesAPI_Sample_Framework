@@ -130,8 +130,7 @@ public class RestAPIRequest {
 
 	/**
 	 * This method is for submitting the REST request (Request/Response detail
-	 * will be logged in report unless it is specifically disabled by user using
-	 * disableReqDetailLog() function)
+	 * will be logged in report)
 	 *
 	 * 
 	 */
@@ -242,9 +241,6 @@ public class RestAPIRequest {
 	 *            "addreses.price.currencyCode" ,
 	 *            "addresses.find {addresses -> addresses.id == '10000957'}.location"
 	 *            etc.
-	 * @see reference
-	 *      http://rest-assured.googlecode.com/svn/tags/1.7.2/apidocs/com
-	 *      /jayway/restassured/path/json/JsonPath.html
 	 * @return <code>Object</code> The return type is <code>Object</code>,
 	 *         because it may return <code>String</code>, <code>Integer</code>,
 	 *         <code>List<*></code>... based on query result for specified
@@ -297,10 +293,7 @@ public class RestAPIRequest {
 	 *            "addreses.price.currencyCode" etc. User should ensure the
 	 *            dataPath only return <code>String</code> result, or will get
 	 *            error exception
-	 * 
-	 * @see reference 
-	 *      http://rest-assured.googlecode.com/svn/tags/1.7.2/apidocs/com
-	 *      /jayway/restassured/path/json/JsonPath.html
+	 *
 	 * @return <code>String</code>
 	 * 
 	 */

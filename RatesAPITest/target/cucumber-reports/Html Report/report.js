@@ -56,24 +56,24 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AISP_Sanity.user_has_the_GET_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_has_the_GET_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 924133752,
+  "duration": 298518744,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.user_invokes_GET_Exchange_rates_API_endpoint_with_appropriate_date(DataTable)"
+  "location": "RatesAPITest.user_invokes_GET_Exchange_rates_API_endpoint_with_appropriate_date(DataTable)"
 });
 formatter.result({
-  "duration": 8429476336,
+  "duration": 2680615526,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.verify_that_Http_response_code_is_OK()"
+  "location": "RatesAPITest.verify_that_Http_response_code_is_OK()"
 });
 formatter.result({
-  "duration": 6855554,
+  "duration": 2937652,
   "status": "passed"
 });
 formatter.scenario({
@@ -114,24 +114,24 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AISP_Sanity.user_has_the_GET_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_has_the_GET_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 1024562,
+  "duration": 454384,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.user_invokes_GET_Exchange_rates_API_endpoint_with_appropriate_date(DataTable)"
+  "location": "RatesAPITest.user_invokes_GET_Exchange_rates_API_endpoint_with_appropriate_date(DataTable)"
 });
 formatter.result({
-  "duration": 1033444640,
+  "duration": 262419011,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.verify_Date_value_in_the_Exchange_rates_API_response_matches_the_date_value_in_the_request()"
+  "location": "RatesAPITest.verify_Date_value_in_the_Exchange_rates_API_response_matches_the_date_value_in_the_request()"
 });
 formatter.result({
-  "duration": 2768089705,
+  "duration": 438171645,
   "status": "passed"
 });
 formatter.scenario({
@@ -185,24 +185,24 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AISP_Sanity.user_has_the_GET_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_has_the_GET_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 1994238,
+  "duration": 438425,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.user_invokes_GET_Exchange_rates_API_endpoint_with_appropriate_date(DataTable)"
+  "location": "RatesAPITest.user_invokes_GET_Exchange_rates_API_endpoint_with_appropriate_date(DataTable)"
 });
 formatter.result({
-  "duration": 1045351606,
+  "duration": 258034166,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.verify_that_exchange_rates_are_available_for_major_countries_as_per_the_requirement_in_the_API_response(DataTable)"
+  "location": "RatesAPITest.verify_that_exchange_rates_are_available_for_major_countries_as_per_the_requirement_in_the_API_response(DataTable)"
 });
 formatter.result({
-  "duration": 711658010,
+  "duration": 148963177,
   "status": "passed"
 });
 formatter.scenario({
@@ -243,24 +243,24 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AISP_Sanity.user_has_the_invalid_GET_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_has_the_invalid_GET_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 962535,
+  "duration": 384019,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.user_invokes_invalid_GET_Exchange_rates_API_endpoint_with_appropriate_date(DataTable)"
+  "location": "RatesAPITest.user_invokes_invalid_GET_Exchange_rates_API_endpoint_with_appropriate_date(DataTable)"
 });
 formatter.result({
-  "duration": 1055263443,
+  "duration": 272403034,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.verify_that_Http_response_code_is_Not_Found()"
+  "location": "RatesAPITest.verify_that_Http_response_code_is_Not_Found()"
 });
 formatter.result({
-  "duration": 1278917,
+  "duration": 417103,
   "status": "passed"
 });
 formatter.scenario({
@@ -306,31 +306,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "AISP_Sanity.user_has_the_GET_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_has_the_GET_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 881767,
+  "duration": 342427,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.user_invokes_GET_Exchange_rates_API_endpoint_with_appropriate_date(DataTable)"
+  "location": "RatesAPITest.user_invokes_GET_Exchange_rates_API_endpoint_with_appropriate_date(DataTable)"
 });
 formatter.result({
-  "duration": 1102113963,
+  "duration": 492043582,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.verify_that_Http_response_code_is_Bad_Request()"
+  "location": "RatesAPITest.verify_that_Http_response_code_is_Bad_Request()"
 });
 formatter.result({
-  "duration": 1108009,
+  "duration": 411749,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.verify_the_error_message_in_the_response()"
+  "location": "RatesAPITest.verify_the_error_message_in_the_response()"
 });
 formatter.result({
-  "duration": 30632002,
+  "duration": 14715964,
   "status": "passed"
 });
 formatter.scenario({
@@ -376,31 +376,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "AISP_Sanity.user_has_the_GET_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_has_the_GET_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 760836,
+  "duration": 339541,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.user_invokes_GET_Exchange_rates_API_endpoint_with_appropriate_date(DataTable)"
+  "location": "RatesAPITest.user_invokes_GET_Exchange_rates_API_endpoint_with_appropriate_date(DataTable)"
 });
 formatter.result({
-  "duration": 1022751440,
+  "duration": 494685051,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.verify_that_Http_response_code_is_Bad_Request()"
+  "location": "RatesAPITest.verify_that_Http_response_code_is_Bad_Request()"
 });
 formatter.result({
-  "duration": 483721,
+  "duration": 289807,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.verify_the_error_message_in_the_response()"
+  "location": "RatesAPITest.verify_the_error_message_in_the_response()"
 });
 formatter.result({
-  "duration": 23580551,
+  "duration": 13745160,
   "status": "passed"
 });
 formatter.uri("GET_Latest_Exchange_Rates_API.feature");
@@ -447,24 +447,24 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AISP_Sanity.user_has_the_GET_latest_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_has_the_GET_latest_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 1267316,
+  "duration": 436926,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.user_invokes_GET_latest_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_invokes_GET_latest_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 1038022595,
+  "duration": 251797810,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.verify_that_Http_response_code_is_OK()"
+  "location": "RatesAPITest.verify_that_Http_response_code_is_OK()"
 });
 formatter.result({
-  "duration": 2078130,
+  "duration": 351500,
   "status": "passed"
 });
 formatter.scenario({
@@ -491,25 +491,25 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AISP_Sanity.user_has_the_GET_latest_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_has_the_GET_latest_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 633658,
+  "duration": 508122,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.user_invokes_GET_latest_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_invokes_GET_latest_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 1114366317,
+  "duration": 242717425,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.verify_Date_value_in_the_Exchange_rates_API_response_matches_current_date()"
+  "location": "RatesAPITest.verify_Date_value_in_the_Exchange_rates_API_response_matches_current_date()"
 });
 formatter.result({
-  "duration": 25933564,
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c2020-10-2[3]\u003e but was:\u003c2020-10-2[2]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat RatesAPI.logger.TestVerification.assertStringEquals(TestVerification.java:87)\r\n\tat RatesAPI.stepDefinition.AISP_Sanity.verify_Date_value_in_the_Exchange_rates_API_response_matches_current_date(AISP_Sanity.java:112)\r\n\tat ✽.Then Verify Date value in the Exchange rates API response matches current date(GET_Latest_Exchange_Rates_API.feature:15)\r\n",
+  "duration": 13714254,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c2021-04-0[2]\u003e but was:\u003c2021-04-0[1]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat RatesAPI.logger.TestVerification.assertStringEquals(TestVerification.java:87)\n\tat RatesAPI.stepDefinition.RatesAPITest.verify_Date_value_in_the_Exchange_rates_API_response_matches_current_date(RatesAPITest.java:112)\n\tat ✽.Then Verify Date value in the Exchange rates API response matches current date(GET_Latest_Exchange_Rates_API.feature:15)\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -549,24 +549,24 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AISP_Sanity.user_has_the_GET_latest_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_has_the_GET_latest_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 1975942,
+  "duration": 1313032,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.user_invokes_GET_latest_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_invokes_GET_latest_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 974943741,
+  "duration": 294435405,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.verify_that_exchange_rates_are_available_for_major_countries_as_per_the_requirement_in_the_API_response(DataTable)"
+  "location": "RatesAPITest.verify_that_exchange_rates_are_available_for_major_countries_as_per_the_requirement_in_the_API_response(DataTable)"
 });
 formatter.result({
-  "duration": 406282227,
+  "duration": 103112761,
   "status": "passed"
 });
 formatter.scenario({
@@ -593,24 +593,24 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AISP_Sanity.user_has_the_invalid_GET_latest_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_has_the_invalid_GET_latest_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 600636,
+  "duration": 417454,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.user_invokes_invalid_GET_latest_Exchange_rates_API_endpoint()"
+  "location": "RatesAPITest.user_invokes_invalid_GET_latest_Exchange_rates_API_endpoint()"
 });
 formatter.result({
-  "duration": 1074415529,
+  "duration": 297677077,
   "status": "passed"
 });
 formatter.match({
-  "location": "AISP_Sanity.verify_that_Http_response_code_is_Not_Found()"
+  "location": "RatesAPITest.verify_that_Http_response_code_is_Not_Found()"
 });
 formatter.result({
-  "duration": 4991171,
+  "duration": 260411,
   "status": "passed"
 });
 });

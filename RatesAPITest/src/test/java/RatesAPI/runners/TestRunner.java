@@ -21,8 +21,8 @@ public class TestRunner {
 	public static void writeExtentReport() {
 		Reporter.setSystemInfo("User Name", "Vijay Vandanapu");
 	    Reporter.setSystemInfo("Time Zone", "INDIA");
-	    Reporter.setSystemInfo("Machine", 	"Windows 10 " + "64 Bit");
-	    Reporter.setSystemInfo("Selenium", "3.14");
+	    Reporter.setSystemInfo("Machine", 	"IOS");
+	    Reporter.setSystemInfo("Selenium", "3.141");
 	    Reporter.setSystemInfo("Java" + " Version", "1.8.0_191");
 	   	Reporter.getExtentHtmlReport();
 	   	Reporter.getExtentReport();
