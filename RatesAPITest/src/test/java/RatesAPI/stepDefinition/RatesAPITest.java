@@ -7,7 +7,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 
-public class AISP_Sanity extends TestBase 
+public class RatesAPITest extends TestBase 
 
 {
 	public static String ratesAPI_baseurl="https://api.ratesapi.io/api/";
